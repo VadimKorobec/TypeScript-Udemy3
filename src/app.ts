@@ -3,9 +3,6 @@ import axios from "axios";
 const form = document.querySelector("form")!;
 const addressInput = document.getElementById("address")! as HTMLInputElement;
 
-const GOOGLE_API_KEY = "AIzaSyB32-F4uPLAmR35DeuJEP_-bv2iVa6ledQ";
-// const GOOGLE_API_KEY = "AIzaSyCIaAc2c5M3VpbCH6PPq_guwy9lHuowX0s";
-
 declare var google: any;
 
 type GoogleGeogod = {
